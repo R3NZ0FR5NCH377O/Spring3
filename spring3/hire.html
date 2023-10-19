@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    
+        <link rel="stylesheet" href="./assets/styles/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mindy</title>
+    </head>
+<body>
+    <header>
+        <nav>
+            <a href="./aboutUs.html">aboutUs</a>
+            <a href="./contact.html">Contact</a>
+            <a href="#">Home</a>
+            <a href="./services.html">services</a>
+            <a href="./rating.html">rating</a>
+            <a href="#">Hire</a>
+            
+        </nav>
+        <img id="logo" src="./assets/img/logo.png" alt="logo" > 
+    </header>
+    <div id="div_titulo"><h1>Tituloo</h1></div>
+    <div class="divs_laterales">
+        <!-- TODO ESTO AFECTA AL MAPA -->
+        <div class="mapa">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423284.04409057635!2d-118.74137119147494!3d34.0206084710792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1697752925030!5m2!1ses!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+
+
+
+
+
+        <!-- TODO ESTO AFECTA A LA LABELS -->
+        <div class="labels">
+
+            <form action="" method="get">
+                <label for="nombre_apellido">nombre y apellido:</label>
+                <input type="text" name="nombre_apellido">
+                <label for="telefono">telefono:</label>
+                <input type="number" name="telefono">
+                <label for="servicio">servicio:</label>
+                <select name="servicio" id="servicio">
+                    <option value="">Seleccione un servicio</option>
+                    <option value="hamburguesa">hamburguesa</option>
+                    <option value="pizza">pizza</option>
+                </select>
+                <label for="edad">edad</label>
+                <input type="date" name="edad" id="edad">
+                <fieldset>
+                    <legend>Metodos de pago</legend>
+                    <label for="pagos">cash</label>
+                    <input type="radio" name="pagos" id="pagos">
+                    <label for="pagos">Credit Car</label>
+                    <input type="radio" name="pagos" id="pagos">
+                    <label for="pagos">Debit Car</label>
+                    <input type="radio" name="pagos" id="pagos">
+                </fieldset>
+                <label for="comentario">comentario</label>
+                <textarea name="comentario" id="comentario" cols="60" rows="10"></textarea>
+                <label class="terminos" for="terminos">Yo acepto los terminos y condiciones</label>
+                <input class="terminos" type="checkbox"name="terminos" id="terminos" required>
+                <input type="button" value="enviar">
+                
+            </form>
+
+        </div>
+    </div>
+    <footer>
+        <h4>Created by: Renzo Franchetto</h4>
+    </footer> 
+</body>
+</html>

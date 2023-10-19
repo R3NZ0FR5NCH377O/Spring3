@@ -1,0 +1,324 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  #logo{
+    width: 30px;
+    height: 30px;
+  }
+  header{
+    background-color: #648285;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: -7px 8px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -7px 8px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -7px 8px 5px 0px rgba(0,0,0,0.75);
+  }
+  header a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: .4px  black;
+    border: double;
+    border-radius: 19%;
+  }
+  nav{
+    
+    display: flex;
+    align-items: center;
+  }
+  #first_section{
+    text-align: center;
+  }
+  html{
+    background-color: #a3c4c2;
+  }
+  #second_section img{
+    width: 30vw;
+    margin-bottom: 7vh;
+    border-radius: 20%;
+
+  }
+  #second_section {
+    text-align: center;
+  }
+  #second_section article{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+
+  }
+  #second_section p{
+    width: 30vw;
+
+  }
+  #parrafo1{
+    margin-top: 40vh;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  footer{
+    display: flex;
+    background-color: #b4a68e;
+    height: 6vh;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  /* ABOUT US */
+
+#main_about_us img{
+  width: 20vw;
+  border-radius: 20%;
+}
+main{
+  text-align: center;
+}
+#main_about_us {
+  margin-bottom: 7%;
+}
+
+
+#about_us article{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4vh;
+  align-items: center;
+  margin-bottom: 4vh;
+  font-size: large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* CONTACTO */
+#seccion_contact img{
+  width: 19vw;
+  border-radius: 10%;
+
+}
+#seccion_contact{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+
+}
+#seccion_contact p{
+  margin-top:4vh ;
+  margin-bottom: 4vh;
+  font-size: x-large;
+  max-width: 57vw;
+
+}
+#contacto{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+#contacto p{
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+  font-size: large;
+}
+/* img{
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateX(48px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateX(26px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateX(13px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateX(6.5px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateX(4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87%,
+	98% {
+		animation-timing-function: ease-out;
+		transform: translateX(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateX(0px);
+	}
+} */
+
+/* SERVICES */
+
+th,td{
+  border: 1px solid black;
+  padding: 20px;
+
+}
+#tabla{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+table{
+  border-collapse: collapse;
+  margin-bottom: 2vh;
+
+}
+#h1_services{
+  text-align: center;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+/* Esto es lo que afecta a rating */
+
+.div_rating{
+  display: flex;
+  font-size: x-large;
+  flex-direction: row;
+  background-color: aquamarine;
+  justify-content: space-around;
+  margin: 30px;
+  margin-bottom: 2%;
+}
+.div_rating_2{
+  margin-bottom: 10%;
+}
+/* div img{
+  width: 20vw;
+} */
+.right-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(187, 196, 194);
+  width: 40%;
+  font-size: large;
+  border-radius: 90%;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+.right-content ul{
+  margin-top: 5%;
+}
+#stars2{
+  margin-top: 10%;
+  width: auto;
+}
+#h1_rating, #h2_rating{
+  text-align: center;
+  margin-top: 1%;
+}
+
+
+
+/* todo esto es peligroso */
+/* Estilos para el div del título */
+#div_titulo {
+  background-color: #333; /* Cambia el color de fondo a tu preferencia */
+  color: white; /* Cambia el color del texto a tu preferencia */
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+/* Estilos para los dos divs laterales */
+.divs_laterales {
+  display: flex;
+}
+
+/* Estilos para el div de mapa */
+.mapa {
+  flex: 1; /* Ocupa la mitad del ancho disponible */
+  padding: 20px;
+}
+
+/* Estilos para el div de labels y formulario */
+.labels {
+  flex: 1; /* Ocupa la otra mitad del ancho disponible */
+  padding: 20px;
+}
+
+/* Estilos para el formulario */
+form {
+  max-width: 400px; /* Establece el ancho máximo del formulario */
+  margin: 0 auto; /* Centra el formulario en su contenedor */
+}
+
+/* Estilos para los labels y elementos del formulario */
+label {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Estilos para el botón de enviar */
+input[type="button"] {
+  background-color: #040303; /* Cambia el color de fondo a tu preferencia */
+  color: white; /* Cambia el color del texto a tu preferencia */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #333; /* Cambia el color de fondo a tu preferencia */
+  color: white; /* Cambia el color del texto a tu preferencia */
+  text-align: center;
+  padding: 20px;
+}
+.mapa {
+  flex: 1; /* Ocupa la mitad del ancho disponible */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centra verticalmente */
+  align-items: center; /* Centra horizontalmente */
+  padding: 20px;
+}
+form{
+  margin-bottom: 3%;
+}
+form{
+  font-size: large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
